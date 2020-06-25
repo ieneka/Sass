@@ -1,0 +1,18 @@
+#col5{
+    background-color: #F24B4B;
+    width: 20%;
+    height: 900px;
+}
+#col5 h3{
+    animation-name: stripe1;
+    animation-duration: 1000ms;
+}
+#col5::before {
+    content:'';
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 900px;
+    opacity: 0.1;
+    z-index: 3;
+}

@@ -1,0 +1,27 @@
+@import "components/col1";
+@import "components/col2";
+@import "components/col3";
+@import "components/col4";
+@import "components/col5";
+@import "components/animation.scss";
+
+body{
+    font-family: 'Lato', sans-serif;
+    
+}
+main{
+    height: 500px;
+}
+#fila{
+    position: absolute;
+    height: 900px;
+    width: 100%;
+    color: white;
+    & .col h3{
+        font-size: 3rem;
+        font-weight: 200;} 
+    &:hover::before{
+        transform: skewX(35deg);
+        transition: 5s;}
+}
+
